@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-15T19:07:06 IST" name="Default suite" finished-at="2020-01-15T19:07:12 IST" duration-ms="6713">
+  <suite started-at="2020-01-15T21:49:49 IST" name="Suite" finished-at="2020-01-15T21:49:58 IST" duration-ms="9155">
     <groups>
     </groups>
-    <test started-at="2020-01-15T19:07:06 IST" name="Default test" finished-at="2020-01-15T19:07:12 IST" duration-ms="6713">
+    <test started-at="2020-01-15T21:49:49 IST" name="Test" finished-at="2020-01-15T21:49:58 IST" duration-ms="9155">
       <class name="sampleTest.Testcase1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:sampleTest.Testcase1@75f32542]" started-at="2020-01-15T19:07:06 IST" name="setup" finished-at="2020-01-15T19:07:12 IST" duration-ms="6302" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:sampleTest.Testcase1@75f32542]" started-at="2020-01-15T21:49:49 IST" name="setup" finished-at="2020-01-15T21:49:57 IST" duration-ms="8581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Editbtn()[pri:0, instance:sampleTest.Testcase1@75f32542]" started-at="2020-01-15T19:07:12 IST" name="Editbtn" finished-at="2020-01-15T19:07:12 IST" duration-ms="380" status="PASS">
+        <test-method signature="Editbtn()[pri:0, instance:sampleTest.Testcase1@75f32542]" started-at="2020-01-15T21:49:57 IST" name="Editbtn" finished-at="2020-01-15T21:49:58 IST" duration-ms="541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Editbtn -->
       </class> <!-- sampleTest.Testcase1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
