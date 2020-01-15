@@ -9,7 +9,8 @@ public class setup {
   
 	@BeforeMethod
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "F:\\drivers\\chromedriver.exe");
+		String s=System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver", s+"\\driver\\chromedriver.exe");
 		dr = new ChromeDriver();
 		dr.get("http://www.leafground.com/");
 		
