@@ -11,7 +11,7 @@ public class setup {
 	@BeforeMethod
 	public void setup() {
 		String s=System.getProperty("user.dir");
-		System.out.println("--------------------------");
+		System.out.println("---------------------------");
 		System.out.println("Browser going to launched");
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setBrowserName("chrome");
