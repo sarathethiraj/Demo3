@@ -17,7 +17,7 @@ public class setup {
 		caps.setBrowserName("chrome");
 		System.setProperty("webdriver.chrome.driver", s+"\\driver\\chromedriver.exe");
 		dr = new ChromeDriver(caps);
-		System.out.println("--------------------------");
+		System.out.println("---------------------------");
 		System.out.println("Browser is launched");
 		dr.get("http://www.leafground.com/");
 		
